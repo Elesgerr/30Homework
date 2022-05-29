@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+}
+h1 h2 h3 p{
+    font-weight: 100;
+}
+#container{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 2rem 6rem 2rem;
+    
+}
+.logo img{
+    width: 60%;
+}
+header{
+    margin-bottom: 5rem;
+}
+.header-all{
+   
+    display: flex;
+    align-items: center;
+    justify-content: right
+     
+}
+.header-all .logo{
+margin-right: 10rem;
+}
+.header-all .icon{
+    color: #ffff;
+    
+}
+
+.header-all .icon i{
+    margin-left: 2rem;
+    
+}
+.navbar a{
+    margin: 0 20px;
+    color: #ffff;
+    position: relative;
+    text-decoration: none;
+}
+
+
+.navbar a::before{
+    bottom: -4px;
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 2px;
+    width: 0%;
+    background-color: white;
+    transition: .5s;
+}
+
+.navbar a:hover::before{
+    width: 100%;
+}
+
+.header-all .navbar{
+    text-align: right;
+    justify-content: space-between;
+    
+}
+.photo img{
+    width: 100%;
+    background-size: cover;
+}
+.second{
+    margin-top: -14.5rem;
+    height: 130vh;
+    background-image: url(../photos/home-1-slider-image-1.jpg);
+    display: flex;
+    justify-content: right;
+    background-position: center;
+    background-size: cover;
+
+}
+.right{
+    margin-right: 5rem;
+    margin-top: 10rem;
+    margin-bottom: 20rem;
+    width: 50%;
+    align-items: center;
+   
+}
+.right .eltdf-btn-text{
+    margin-right: 13rem;
+}
+.second .right img{
+    margin: 0 10rem;
+   
+    
+}
+.second .right p{
+    margin-bottom: 3rem;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;  
+    
+}
+.right .box h1{
+    font-size: 68px;
+    font-weight: 100;
+   
+}
+.second .right .box span{
+    width: 100%;
+}
+.right .box span{
+    margin-left: 13rem;
+    align-items: center;
+    padding: 23px 20px;
+    border: 1px solid #ffff;
+    border-color: #ffff;
+   
+}
+.right .box{
+    
+   text-align: center;
+    margin: 1rem 0;
+    margin-right: 3rem;
+    font-family: inherit;
+    text-transform: uppercase;
+}
+.right{
+   color: #ffff;
+}
+.three-all .title{
+    align-items: center;
+}
+.three{
+    
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+   
+}
+
+.three .three-all{
+    height: 600;
+    
+}
+.box-all{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+}
+.box-all .box{
+   
+    
+   color: black;
+} 
+.box-all .box p{
+    font-size: 18px;
+}
+.box-all img{
+    cursor: pointer;
+    width: 100px;
+    vertical-align: middle;
+    
+}
+.box .asa{
+    align-items: center;
+    text-align: center
+   
+}
+.three-all .box-all img{
+    display: flex;
+  
+    width: 80px;
+}
+.box-all .box{
+    margin-bottom: 4rem;
+    
+}
+.three-all .title{
+    
+    padding-bottom: 5rem;
+}
+
+h2{
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 1.55em;
+    font-style: normal;
+    font-weight: 300;
+    text-transform: none;
+}
+.title h3{
+        font-size: 45px;
+        font-weight: 100;
+        letter-spacing: 2px;
+}
+.title img{
+    margin-top: 1rem;
+}
+.title p{
+    margin-top: 1rem;
+}
+.box-all .box{
+   justify-content: center;
+    width: 280px;
+    
+}
+
+.box-all .box p{
+    margin-top: 1rem;
+   width: 100%;
+}
+.box-all .box h1{
+    margin-top: 1rem;
+}
+.four{
+    width: 100%;
+    height: 130vh;
+    text-align: center;
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/new-new-h1-bacground-img-3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.title-all .title{
+  padding: 4rem 0;
+}
+.title-all .title h1{
+    font-size: 45px;
+    font-weight: 100;
+    text-align: center;
+}
+.title-all .title p{
+    font-size: 17px;
+    text-align: center;
+}
+.title-all .box-all img{
+width: 100%;
+}
+.title-all .box-all{
+    width: 100%;
+    justify-content: space-evenly;
+}
+.box-all{
+    display: flex;
+    justify-content: left;
+}
+.five-all .box span{
+    
+    vertical-align: middle;
+    font-size: 55px;
+    font-family: Marcellus,sans-serif;
+    color: #be9c79;
+    letter-spacing: .05em;
+    line-height: .9em;
+    overflow: hidden;
+    margin-top: 2rem;
+}
+.five-all .box{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+.five-all{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.five-all span{
+    margin-bottom: 2rem;
+}
+.five-all h1{
+    margin-bottom: 1rem;
+}
+.five{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.six{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-1.jpg);
+    height: 110vh;
+    text-align: center;
+}
+.six-all .title h1{
+    font-size: 45px;
+    font-weight: 100;
+}
+.six-all .title p{
+    font-size: 17px;
+}
+.six .title{
+    padding: 5rem;
+}
+.six-all .box-all{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.six-all .box-all img{
+    width: 90%;
+}
+.six-all .title{
+    color: #252525;
+}
+.six-all .box-all{
+    color: #252525;
+}
+.six-all .box-all h1{
+    margin-bottom: 10px;
+}
+.seven{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.seven .title h1{
+    font-size: 45px;
+    font-weight: 100;
+}
+.eight .box-all{
+justify-content: space-between;
+}
+.eight .box-all img{
+    width: 100%;
+}
+.nine .box-all{
+    flex-wrap: initial;
+    width: 100%;
+}
+.nine .box-all .box img{
+    width: 100%;
+}
+.nine{
+    padding: 1rem 0 0 5rem;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.ten{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/p2-background-img-1.jpg);
+}
+.ten .title span{
+    padding: 23px 40px;
+    color: #ffff;
+    background-color: #BE9C79;
+    text-transform: uppercase;
+    margin-left: 5rem;
+    
+}
+.ten .title h1{
+    
+    display: flex;
+    text-align: center;
+}
+.ten .title{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+
+
+@media (max-widht:576px) {
+
+   .header-all .navbar{
+       display: none;
+   }
+}
+
+
+
+
